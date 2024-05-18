@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: 5.0.0-release-candidate-5
+  get:
+    git:
+      url: https://github.com/jonataslaw/getx.git
+      ref: master
   path_provider: ^2.0.1
   web: ^0.5.1
   #platform_info: ^3.0.0-nullsafety.1
